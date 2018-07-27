@@ -4,6 +4,7 @@ import argparse
 from collections import defaultdict, namedtuple
 import math
 import csv
+import sys
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -618,8 +619,11 @@ if __name__ == "__main__":
 
 
     args = parser.parse_args()
-    assert args.language is not None  # need a language
-
+    #assert args.language is not None  # need a language
+    if args.language is None:
+        parser.print_help(sys.stdout) #printing help instead of raising AssertionError
+        sys.exit(1)
+    
     args_dict = vars(args)  # keep args safe
     print(args_dict)
 
