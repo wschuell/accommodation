@@ -6,24 +6,24 @@ Proceedings of CogSci.
 
 
 -------------------------
-
-usage: ft_multinomial.py [-h] [--outputstr OUTPUTSTR]
-                         [--language LANGUAGE [LANGUAGE ...]]
-                         [--alpha_prior ALPHA_PRIOR]
-                         [--no_gamma_prior NO_GAMMA_PRIOR]
-                         [--dialogue_length DIALOGUE_LENGTH]
-                         [--message_length MESSAGE_LENGTH]
-                         [--speaker_hyps SPEAKER_HYPS]
-                         [--prior_data PRIOR_DATA]
-                         [--accommodation ACCOMMODATION]
+```
+usage: ft_multinomial.py [-h] [--outputstr OUTPUTSTR]  
+                         [--language LANGUAGE [LANGUAGE ...]]  
+                         [--alpha_prior ALPHA_PRIOR]  
+                         [--no_gamma_prior NO_GAMMA_PRIOR]  
+                         [--dialogue_length DIALOGUE_LENGTH]  
+                         [--message_length MESSAGE_LENGTH]  
+                         [--speaker_hyps SPEAKER_HYPS]  
+                         [--prior_data PRIOR_DATA]  
+                         [--accommodation ACCOMMODATION]  
 
 Chat between Bayesian Learners.
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            show this help message and exit  
   --outputstr OUTPUTSTR, -o OUTPUTSTR
-  --language LANGUAGE [LANGUAGE ...], -l LANGUAGE [LANGUAGE ...]
-  --alpha_prior ALPHA_PRIOR, -a ALPHA_PRIOR
+  --language LANGUAGE [LANGUAGE ...], -l LANGUAGE [LANGUAGE ...]  
+  --alpha_prior ALPHA_PRIOR, -a ALPHA_PRIOR  
   --no_gamma_prior NO_GAMMA_PRIOR, -G NO_GAMMA_PRIOR
                         Don't use gamma prior: speaker-model datasets have
                         fixed size=D
@@ -34,3 +34,4 @@ optional arguments:
                         code, confusingly)
   --prior_data PRIOR_DATA, -D PRIOR_DATA
   --accommodation ACCOMMODATION, -A ACCOMMODATION
+```
